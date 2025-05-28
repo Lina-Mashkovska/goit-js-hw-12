@@ -30,7 +30,7 @@ form.addEventListener('submit', async event => {
     hideLoader();
     return;
   }
-  it (query!== currentQuery) {
+  if (query!== currentQuery) {
     page = 1;
     currentQuery = query;
     clearGallery();
