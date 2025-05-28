@@ -1,0 +1,38 @@
+input {
+    border-radius: 4px;
+    width: 272px;
+    height: 40px;
+    background: #fff;
+    margin-right: 8px;
+    padding: 8px;
+    border: 1px solid #808080;
+}
+
+button {
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background: #4e75ff;
+    border: none;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+    margin: 32px auto 44px;
+    width: 125px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding-top: 36px;
+    margin-bottom: 32px;
+ }

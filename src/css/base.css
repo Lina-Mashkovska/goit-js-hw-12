@@ -30,3 +30,25 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.link-page {
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 32px 15px 0 15px;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+}
